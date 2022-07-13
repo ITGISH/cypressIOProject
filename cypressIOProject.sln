@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cypressIOProject", "cypressIOProject\cypressIOProject.csproj", "{BA2D01FE-840C-4DF6-A020-53C133BEC1FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA2D01FE-840C-4DF6-A020-53C133BEC1FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2D01FE-840C-4DF6-A020-53C133BEC1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2D01FE-840C-4DF6-A020-53C133BEC1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2D01FE-840C-4DF6-A020-53C133BEC1FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7394FD89-65A2-4423-A481-D18F20B21BEB}
+	EndGlobalSection
+EndGlobal
