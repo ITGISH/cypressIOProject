@@ -40,7 +40,7 @@ namespace cypressIOProject
 
             extent = new ExtentReports();
             //Add reporter
-            reporter = ReporterFactory.GetExtentHTMLReporter();
+            reporter = ReporterFactory.GetExtentHTMLReporter(nameof(TodoPageTest));
 
             extent.AttachReporter(reporter);
 

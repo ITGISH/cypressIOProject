@@ -11,23 +11,22 @@ namespace cypressIOProject.Report
 {
     public static class ReporterFactory
     {
-        public static ExtentHtmlReporter GetExtentHTMLReporter()
+        public static ExtentHtmlReporter GetExtentHTMLReporter(string pageName)
         {
             //To obtain the current solution path/project path
             var directory = Directory.GetCurrentDirectory();
             directory = directory.Remove(directory.IndexOf("bin"));
             directory += "Report";
 
-            var reporter = new ExtentHtmlReporter(directory + "\\");
+            var reporter = new ExtentHtmlReporter(directory + "\\"+pageName+"\\");
 
             reporter.Config.CSS = "css-string";
             reporter.Config.DocumentTitle = "cypress IO";
-            reporter.Config.ReportName = nameof(TodoPageTest);
+            reporter.Config.ReportName = pageName;
             reporter.Config.EnableTimeline = true;
             reporter.Config.Encoding = "utf-8";
             reporter.Config.JS = "js-string";
             reporter.Config.Theme = Theme.Dark;
-
             return reporter;
         }
     }
